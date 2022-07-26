@@ -3,5 +3,5 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yetanothermasterylearning&label=Profile%20views&color=brightgreen&style=for-the-badge" alt="yetanothermasterylearning" /> </p>
 
 - 👀 I’m interested in Teaching
-- reach me 📫  yetanothermasterylearning@gmail.com
-- reach me 📫 https://yetanothermasterylearning.github.io/yetanothermasterylearning/
+- reach me 📫  [Email](yetanothermasterylearning@gmail.com)
+- reach me 📫  [GitPage](https://yetanothermasterylearning.github.io/yetanothermasterylearning/)
