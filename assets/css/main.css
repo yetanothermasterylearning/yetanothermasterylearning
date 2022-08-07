@@ -311,7 +311,7 @@ hr {
         padding-top: 0em; }
   .row.gtr-25 {
     margin-top: 0;
-    margin-left: -0.375em; }
+    margin-left: 0.375em; }
     .row.gtr-25 > * {
       padding: 0 0 0 0.375em; }
     .row.gtr-25.gtr-uniform {
@@ -320,7 +320,7 @@ hr {
         padding-top: 0.375em; }
   .row.gtr-50 {
     margin-top: 0;
-    margin-left: -0.75em; }
+    margin-left: 0.75em; }
     .row.gtr-50 > * {
       padding: 0 0 0 0.75em; }
     .row.gtr-50.gtr-uniform {
@@ -329,7 +329,7 @@ hr {
         padding-top: 0.75em; }
   .row {
     margin-top: 0;
-    margin-left: -1.5em; }
+    margin-left: 1.5em; }
     .row > * {
       padding: 0 0 0 1.5em; }
     .row.gtr-uniform {
@@ -338,7 +338,7 @@ hr {
         padding-top: 1.5em; }
   .row.gtr-150 {
     margin-top: 0;
-    margin-left: -2.25em; }
+    margin-left: 2.25em; }
     .row.gtr-150 > * {
       padding: 0 0 0 2.25em; }
     .row.gtr-150.gtr-uniform {
@@ -347,7 +347,7 @@ hr {
         padding-top: 2.25em; }
   .row.gtr-200 {
     margin-top: 0;
-    margin-left: -3em; }
+    margin-left: 3em; }
     .row.gtr-200 > * {
       padding: 0 0 0 3em; }
     .row.gtr-200.gtr-uniform {
@@ -437,7 +437,7 @@ hr {
             padding-top: 0em; }
       .row.gtr-25 {
         margin-top: 0;
-        margin-left: -0.375em; }
+        margin-left: 0.375em; }
         .row.gtr-25 > * {
           padding: 0 0 0 0.375em; }
         .row.gtr-25.gtr-uniform {
@@ -446,7 +446,7 @@ hr {
             padding-top: 0.375em; }
       .row.gtr-50 {
         margin-top: 0;
-        margin-left: -0.75em; }
+        margin-left: 0.75em; }
         .row.gtr-50 > * {
           padding: 0 0 0 0.75em; }
         .row.gtr-50.gtr-uniform {
@@ -455,7 +455,7 @@ hr {
             padding-top: 0.75em; }
       .row {
         margin-top: 0;
-        margin-left: -1.5em; }
+        margin-left: 1.5em; }
         .row > * {
           padding: 0 0 0 1.5em; }
         .row.gtr-uniform {
@@ -464,7 +464,7 @@ hr {
             padding-top: 1.5em; }
       .row.gtr-150 {
         margin-top: 0;
-        margin-left: -2.25em; }
+        margin-left: 2.25em; }
         .row.gtr-150 > * {
           padding: 0 0 0 2.25em; }
         .row.gtr-150.gtr-uniform {
@@ -473,7 +473,7 @@ hr {
             padding-top: 2.25em; }
       .row.gtr-200 {
         margin-top: 0;
-        margin-left: -3em; }
+        margin-left: 3em; }
         .row.gtr-200 > * {
           padding: 0 0 0 3em; }
         .row.gtr-200.gtr-uniform {
@@ -563,7 +563,7 @@ hr {
             padding-top: 0em; }
       .row.gtr-25 {
         margin-top: 0;
-        margin-left: -0.375em; }
+        margin-left: 0.375em; }
         .row.gtr-25 > * {
           padding: 0 0 0 0.375em; }
         .row.gtr-25.gtr-uniform {
@@ -572,7 +572,7 @@ hr {
             padding-top: 0.375em; }
       .row.gtr-50 {
         margin-top: 0;
-        margin-left: -0.75em; }
+        margin-left: 0.75em; }
         .row.gtr-50 > * {
           padding: 0 0 0 0.75em; }
         .row.gtr-50.gtr-uniform {
@@ -581,7 +581,7 @@ hr {
             padding-top: 0.75em; }
       .row {
         margin-top: 0;
-        margin-left: -1.5em; }
+        margin-left: 1.5em; }
         .row > * {
           padding: 0 0 0 1.5em; }
         .row.gtr-uniform {
@@ -590,7 +590,7 @@ hr {
             padding-top: 1.5em; }
       .row.gtr-150 {
         margin-top: 0;
-        margin-left: -2.25em; }
+        margin-left: 2.25em; }
         .row.gtr-150 > * {
           padding: 0 0 0 2.25em; }
         .row.gtr-150.gtr-uniform {
@@ -599,7 +599,7 @@ hr {
             padding-top: 2.25em; }
       .row.gtr-200 {
         margin-top: 0;
-        margin-left: -3em; }
+        margin-left: 3em; }
         .row.gtr-200 > * {
           padding: 0 0 0 3em; }
         .row.gtr-200.gtr-uniform {
@@ -689,7 +689,7 @@ hr {
             padding-top: 0em; }
       .row.gtr-25 {
         margin-top: 0;
-        margin-left: -0.375em; }
+        margin-left: 0.375em; }
         .row.gtr-25 > * {
           padding: 0 0 0 0.375em; }
         .row.gtr-25.gtr-uniform {
@@ -698,7 +698,7 @@ hr {
             padding-top: 0.375em; }
       .row.gtr-50 {
         margin-top: 0;
-        margin-left: -0.75em; }
+        margin-left: 0.75em; }
         .row.gtr-50 > * {
           padding: 0 0 0 0.75em; }
         .row.gtr-50.gtr-uniform {
@@ -707,7 +707,7 @@ hr {
             padding-top: 0.75em; }
       .row {
         margin-top: 0;
-        margin-left: -1.5em; }
+        margin-left: 1.5em; }
         .row > * {
           padding: 0 0 0 1.5em; }
         .row.gtr-uniform {
@@ -716,7 +716,7 @@ hr {
             padding-top: 1.5em; }
       .row.gtr-150 {
         margin-top: 0;
-        margin-left: -2.25em; }
+        margin-left: 2.25em; }
         .row.gtr-150 > * {
           padding: 0 0 0 2.25em; }
         .row.gtr-150.gtr-uniform {
@@ -725,7 +725,7 @@ hr {
             padding-top: 2.25em; }
       .row.gtr-200 {
         margin-top: 0;
-        margin-left: -3em; }
+        margin-left: 3em; }
         .row.gtr-200 > * {
           padding: 0 0 0 3em; }
         .row.gtr-200.gtr-uniform {
@@ -815,7 +815,7 @@ hr {
             padding-top: 0em; }
       .row.gtr-25 {
         margin-top: 0;
-        margin-left: -0.375em; }
+        margin-left: 0.375em; }
         .row.gtr-25 > * {
           padding: 0 0 0 0.375em; }
         .row.gtr-25.gtr-uniform {
@@ -824,7 +824,7 @@ hr {
             padding-top: 0.375em; }
       .row.gtr-50 {
         margin-top: 0;
-        margin-left: -0.75em; }
+        margin-left: 0.75em; }
         .row.gtr-50 > * {
           padding: 0 0 0 0.75em; }
         .row.gtr-50.gtr-uniform {
@@ -833,7 +833,7 @@ hr {
             padding-top: 0.75em; }
       .row {
         margin-top: 0;
-        margin-left: -1.5em; }
+        margin-left: 1.5em; }
         .row > * {
           padding: 0 0 0 1.5em; }
         .row.gtr-uniform {
@@ -842,7 +842,7 @@ hr {
             padding-top: 1.5em; }
       .row.gtr-150 {
         margin-top: 0;
-        margin-left: -2.25em; }
+        margin-left: 2.25em; }
         .row.gtr-150 > * {
           padding: 0 0 0 2.25em; }
         .row.gtr-150.gtr-uniform {
@@ -851,7 +851,7 @@ hr {
             padding-top: 2.25em; }
       .row.gtr-200 {
         margin-top: 0;
-        margin-left: -3em; }
+        margin-left: 3em; }
         .row.gtr-200 > * {
           padding: 0 0 0 3em; }
         .row.gtr-200.gtr-uniform {
@@ -941,7 +941,7 @@ hr {
             padding-top: 0em; }
       .row.gtr-25 {
         margin-top: 0;
-        margin-left: -0.375em; }
+        margin-left: 0.375em; }
         .row.gtr-25 > * {
           padding: 0 0 0 0.375em; }
         .row.gtr-25.gtr-uniform {
@@ -950,7 +950,7 @@ hr {
             padding-top: 0.375em; }
       .row.gtr-50 {
         margin-top: 0;
-        margin-left: -0.75em; }
+        margin-left: 0.75em; }
         .row.gtr-50 > * {
           padding: 0 0 0 0.75em; }
         .row.gtr-50.gtr-uniform {
@@ -959,7 +959,7 @@ hr {
             padding-top: 0.75em; }
       .row {
         margin-top: 0;
-        margin-left: -1.5em; }
+        margin-left: 1.5em; }
         .row > * {
           padding: 0 0 0 1.5em; }
         .row.gtr-uniform {
@@ -968,7 +968,7 @@ hr {
             padding-top: 1.5em; }
       .row.gtr-150 {
         margin-top: 0;
-        margin-left: -2.25em; }
+        margin-left: 2.25em; }
         .row.gtr-150 > * {
           padding: 0 0 0 2.25em; }
         .row.gtr-150.gtr-uniform {
@@ -977,7 +977,7 @@ hr {
             padding-top: 2.25em; }
       .row.gtr-200 {
         margin-top: 0;
-        margin-left: -3em; }
+        margin-left: 3em; }
         .row.gtr-200 > * {
           padding: 0 0 0 3em; }
         .row.gtr-200.gtr-uniform {
@@ -1001,7 +1001,7 @@ header.major > :last-child {
   border-bottom: solid 3px #f56a6a;
   display: inline-block;
   margin: 0 0 2em 0;
-  padding: 0 0.75em 0.5em 0; }
+  padding: 0 0.5em 0.5em 0; }
 
 header.main > :last-child {
   margin: 0 0 1em 0; }
@@ -2076,7 +2076,7 @@ button,
   display: -ms-flex;
   display: flex;
   border-bottom: solid 5px #f56a6a;
-  padding: 6em 0 1em 0;
+  padding: 2em 0 1em 0;
   position: relative; }
   #header > * {
     -moz-flex: 1;
