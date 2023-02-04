@@ -22,7 +22,7 @@
 				"potentialAction": {}
 			},
 			{
-				@context" : "https://schema.org",
+				"@context" : "https://schema.org",
 				"@type" : "Organization",
 				"name" : "Yet Another Mastery Learning",
 				"url" : "https://yetanothermasterylearning.com/",
@@ -120,7 +120,7 @@
 							<div class="features">
 								<form method="gform" id="gform" enctype="text/plan" 
 								action="https://docs.google.com/forms/d/e/1FAIpQLSc0ArBRAo2WtHuUx30_1H4mkGG1NVidMCA7CJKDhP0r2uu98A/formResponse?" 
-								target="hidden_iframe" onsubmit="submitted=true;">
+								target="hidden_iframe" onsubmit="return validateForm()">
 									<div class="row gtr-uniform">
 										<div class="col-6 col-12-xsmall">
 											<input type="text" name="entry.32644537" id="entry.32644537" value="" placeholder="Your Name (required)" required minlength="4" data-msg="Please enter at least 4 chars"/>
@@ -136,6 +136,11 @@
 											<textarea name="entry.2050394140" id="entry.2050394140" placeholder="Enter your message" rows="6" required minlength="10" data-msg="Please write something for us">
 											</textarea>
 										</div>
+										<h3>Please validate captcha:</h3>
+										<p id="entry.123456789"></p>
+										<div class="col-3 col-12-xsmall">
+											<input type="text" name="entry.1234567890" id="entry.1234567890" value="" placeholder="Enter the captch (required)" required minlength="1" data-msg="Please enter the response"/>
+										</div>
 										<!-- Break -->
 										<div class="col-12">
 											<ul class="actions">
@@ -144,7 +149,7 @@
 											</ul>
 										</div>
 									</div>
-									<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+									<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(true) {}"></iframe>
 								</form>
 							</div>
 							</section>
@@ -220,6 +225,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script type="text/javascript">
+			var max = 10;
+			var min = -10
+			var a = Math.floor(Math.random() * (max - min) + min);
+			var b = Math.floor(Math.random() * (max - min) + min);
+
+			document.getElementById('entry.123456789').innerHTML = a + " + " + b + " = ??";
+			function validateForm() {
+				if (document.getElementById('entry.1234567890').value == (a+b)) {
+					return true;
+				} 
+				return false;
+			}
 			$('#gform').on('submit', function(e) {
 				$('#gform *').fadeOut(1000);
 				$('#gform').prepend('<div class="row gtr-uniform"><h4>Thank you for contacting us. we will respond within three business days.</h4></div>');
