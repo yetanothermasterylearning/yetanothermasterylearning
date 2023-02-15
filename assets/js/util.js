@@ -1,5 +1,27 @@
 (function($) {
 
+	var max = 10;
+	var min = -10
+	var a = Math.floor(Math.random() * (max - min) + min);
+	var b = Math.floor(Math.random() * (max - min) + min);
+	var text = a + " + " + b + " = ??";
+	
+	var tCtx = document.getElementById('captchaCanvas').getContext('2d');
+	tCtx.canvas.width = tCtx.measureText(text).width;
+	tCtx.fillText(text, 0, 10);
+    
+	$('#gform').on('submit', function(e) {
+		$('#gform *').fadeOut(1000);
+		$('#gform').prepend('<div class="row gtr-uniform"><h4>Thank you for contacting us. we will respond within three business days.</h4></div>');
+		function validateForm() {
+			if (document.getElementById('entry.1234567890').value == (a+b)) {
+				return true;
+			} 
+			return false;
+		};
+		return validateForm();
+	});
+			
 	/**
 	 * Generate an indented list of links from a nav. Meant for use with panel().
 	 * @return {jQuery} jQuery object.
